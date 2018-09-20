@@ -8,7 +8,7 @@ public class Blackjack {
 		
 		Deck playingDeck = new Deck();
 		playingDeck.createNewDeck();
-		
+		playingDeck.shuffle();
 		System.out.println(playingDeck);
 
 	}
